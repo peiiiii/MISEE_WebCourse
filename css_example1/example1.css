@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns:290px 290px 290px;
+  grid-gap: 10px;
+  background-color: #CCD1D1;
+  padding: 10px;
+  width: 900px;
+  margin: auto;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8); 
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  font-size: 150%;
+  font-style: italic;
+}
+h1{
+  font-size: 300%;
+  font-style: italic;
+}
+ul{
+  font-style: oblique;
+  text-align:left;
+}
